@@ -1,0 +1,42 @@
+# Maven
+target/
+*.log
+
+# Java
+*.class
+*.jar
+
+# IDE - IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Env files
+.env
+
+# Maven wrapper (optional keep/remove)
+.mvn/wrapper/maven-wrapper.jar
