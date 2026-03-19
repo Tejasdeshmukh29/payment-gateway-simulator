@@ -1,10 +1,9 @@
-FROM eclipse-temurin:21-jdk-jammy
-
+FROM eclipse-temurin:21-jdk-alpine
 WORKDIR /app
 
 COPY target/PaymentGateway-0.0.1-SNAPSHOT.jar app.jar
 
-RUN apt-get update && apt-get install -y mysql-client
+RUN apk add --no-cache mysql-client
 
 EXPOSE 8080
 

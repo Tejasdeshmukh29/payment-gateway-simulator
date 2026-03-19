@@ -25,8 +25,7 @@ services:
       - "6379:6379"
 
   payment-app:
-    platform: linux/amd64
-    build: .
+    image: tejasdeshmukh29/payment-gateway-app:latest   # ✅ FIXED
     container_name: payment_gateway_app
     restart: no
     ports:
